@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>慶典活動</title>
+    <style>
+        .dropdown-menu li:hover .sub-menu {visibility: visible;}
+        .dropdown:hover .dropdown-menu {display: block;}
+        .bg{
+            background-image: url(./img/footer.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(64, 64, 64);
+        }
+        .bg2{
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 2rem 2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .bg2 a{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+        }
+        .bg2 a:hover{
+            font-weight: bold;
+            font-size: medium;
+        }
+        .myul{
+            position: fixed;
+            top: 50%;
+            background-color: rgb(238, 201, 0, 0.8);
+            list-style: none;
+        }
+        .mylink{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .mylink:hover{
+            color: rgb(64, 64, 64);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+    <!-- 選單開始 -->
+    <nav class="navbar navbar-expand-lg  navbar-light mb-0" style="background-color: rgb(238, 201, 0, 0.8);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-start pe-5 ps-3" href="index_home.html">
+                <img src="./img/logo.png" width="300rem">
+            </a>
+            <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-5 ps-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_news.html"><strong>最新消息</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>關於配天宮</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_about.html#history">歷史由來</a></li>
+                                <li><a class="dropdown-item" href="index_about.html#story">傳奇故事</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">配天宮樂曲</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_party.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>慶典活動</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_party.html#partynews">慶典資訊</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">活動花絮</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_net.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>線上服務</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_net.html#light">線上點燈</a></li>
+                                <li><a class="dropdown-item" href="index_net.html#love">捐獻區</a></li>
+                                <li><a class="dropdown-item" href="#">志工報名</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">聯絡我們</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_map.html"><strong>交通資訊</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>人事組織</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">大事年表</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">組織圖</a></li>
+                                <li><a class="dropdown-item" href="#">配天宮文教基金會</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 選單結束 -->
+
+    <!-- 開始 -->
+    <div class="container mb-5">
+        <h1 class="mt-5 mb-2"><a name="partynews" id="partynews"><strong>慶典資訊</strong></a></h1>
+        <div class="bg2">
+            <h5><strong>農曆臘月中旬設立燈花&emsp;燈花大會</strong></h5>
+            <p>&emsp;因皇帝准將燈花燦結於配天宮，從此配天宮將此殊榮在每年的正月便設立傳統宮廷的燈花；其較一般的是宮庭的燈花以白花齊放、萬花爭艷方式邀請文武百官至御花園賞花。官臣未使百花齊開便設爐點燈，促花提早開花。花海、燈海蔚為一大景觀。而成為朴子配天宮特色之一。爾後每年元宵至二月底均以設於宮內及廣場。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆正月初一&emsp;福開廟門</strong></h5>
+            <p>&emsp;漢民族的歲時節令中，除夕為最重要的節日。因在當日是全家的團圓節日。在此天除舊布新後，便張貼春聯。在「辭年」祭拜過神明後，以感謝一年來的護佑。當晚亦在吃完團圓飯，分領壓歲錢後，便守候的等待、開廟門、「插頭香」大多是全家大小一同，祈求媽祖對未來新的一年裡能夠諸事平安如意。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆正月初四&emsp;跋四季籤接神慶典</strong></h5>
+            <p>&emsp;由於民間傳說農曆的十二月廿四日為送神日，即神明上天述職，稟報人間善惡，至正月初四會再返回人間，繼續接受祭拜與監察人間的善惡，因此該日必須非常謹慎地迎接神明下凡，故稱為「接神日」。在接神儀式後，便進行跋籤科儀：在董監事、爐主會呈上香禮後，向媽祖祈福求籤，一次跋取士、農、工、商各行之運籤。四籤亦稱「公籤」，可預測國家、社會在新的年度運轉流年，以為因應。擇於春節筊杯，其因為天臘之辰，萬福之際，是為信徒祈福之最佳時辰。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆正月初九&emsp;玉皇上帝萬壽</strong></h5>
+            <p>&emsp;歡迎信眾踴躍參拜。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆正月十三&emsp;啟典禮斗法會(連續三天)</strong></h5>
+            <p>&emsp;瞻星禮斗，淵源甚古，漢代的霍光曾經禮斗，三國孔明也曾禳星。在漢永壽元年正月初七日，老君化身昇玉局座，授道陵天師「北斗延生秘訣」，人類始知「斗」為天樞，運四時，司陰陽，功沾三界，普潤群生，是人神的主宰。及漢明帝在崑崙山蒙斗姥親傳秘法，開方便之門，說北元統章，一星吐一理，一元演一道，後世方知七元各有所掌，九皇各有所拜，歷代宗師由「斗」中精微之理，而闡發拜斗之法，計有七十二種之多，或為奇門，或為運用，或為默朝，或為唱念等類。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆正月十五&emsp;禮斗謝燈、上元慶典、元宵踩街賞燈花</strong></h5>
+            <p>&emsp;歡迎信眾踴躍參與。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆二月初二&emsp;福德正神聖誕</strong></h5>
+            <p>&emsp;歡迎信眾踴躍參拜。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆二月初三&emsp;文昌帝君聖誕</strong></h5>
+            <p>&emsp;歡迎信眾踴躍參拜。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆二月十九&emsp;觀音佛祖佛誕</strong></h5>
+            <p>&emsp;誦經讚揚。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆三月廿二&emsp;聖母出巡遶境慶典</strong></h5>
+            <p>&emsp;每逢農曆三月廿二日起，展開兩天的神輿遶境大遊行，來自全各寺廟的神轎、陣頭、花車、藝閣、電子車等，齊集助陣，各級學校亦有樂隊、儀隊參加遊行，甚至舉辦民俗傳統藝能表演，吸引了數以萬計的香客湧入。遊行祭典在夜晚的「入廟」活動，更趨白熱化，所有參加遊行的陣頭，遂一返回本宮完成祭拜後結束，各寺廟的神轎在廟前廣場，以急速的「三進三退」向天上聖母祝壽，廣場擠滿人潮，炮聲不絕，「迎媽祖之夜」盛況達到高潮。遊行結束後，媽祖神轎便會在宮前廣場供人躦轎底。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆三月廿三&emsp;聖母聖誕千秋慶典</strong></h5>
+            <p>&emsp;每逢農曆三月廿三日聖母聖誕，本宮循例在宮裡中殿及宮前廣場，隆重舉行祭祀大典，悉依古禮進行，各執事人員均著傳統禮服參與聖典。三月廿二、廿三兩天並舉行神輿、花車、陣頭等遶境遊行。祭祀大典在鳴炮中正式展開，執事者就位，鳴鐘擂鼓、正嚴、再嚴、三嚴、啟扉、奏樂行迎神禮、進饌、行上香禮、行初獻禮、恭讀祝文、行亞獻禮、行終獻禮，各界代表上香、飲福受胙、撤饌、行送神禮、主祭致詞、捧帛、捧祝詣燎所、望燎、闔扉、禮成後參拜。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆六月初六&emsp;山軍聖誕遶境慶典</strong></h5>
+            <p>&emsp;歡迎各界共襄盛舉。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆七月十五&emsp;中元普渡中元慶典</strong></h5>
+            <p>&emsp;農曆七月十五日是中元節，自古以來便有七月為鬼月，七月一日開鬼門，七月底關鬼門，所有孤魂均放假一個月。因此，普渡孤魂變成了民間重大節日，在十五日本宮亦舉行公普，亦聘請道士舉行會、賑孤。超渡孤魂使地方能平安繁榮。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆九月初九&emsp;聖母飛昇紀念慶典</strong></h5>
+            <p>&emsp;誦經讚揚。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆十月十五&emsp;下元水官大帝聖誕</strong></h5>
+            <p>&emsp;歡迎信眾踴躍參拜。</p>
+        </div>
+        <div class="bg2">
+            <h5><strong>農曆十二月廿四&emsp;送神洗塵</strong></h5>
+        </div>
+    </div>
+    <!-- 結束 -->
+
+    <!-- 頁尾開始 -->
+    <div class="ms-0 me-0 ps-5 pe-5 pt-5 pb-5 text-center" style="background-color: black; width: 100%;">
+        <a class="text-center" style="text-decoration: none; color: rgb(255, 255, 255);" href="#"><strong>back to top↑</strong></a>
+        <br><h6 class="text-center mb-0" style="color: rgb(255, 255, 255);"><br>地址：嘉義縣朴子市開元路118號<br>電話：05-3792350</h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

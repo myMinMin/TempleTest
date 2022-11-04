@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>交通資訊</title>
+    <style>
+        .dropdown-menu li:hover .sub-menu {visibility: visible;}
+        .dropdown:hover .dropdown-menu {display: block;}
+        .bg{
+            background-image: url(./img/footer.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(64, 64, 64);
+        }
+        .bg2{
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 2rem 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .bg2 a{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+        }
+        .bg2 a:hover{
+            font-weight: bold;
+            font-size: medium;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+    <!-- 選單開始 -->
+    <nav class="navbar navbar-expand-lg  navbar-light mb-0" style="background-color: rgb(238, 201, 0, 0.8);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-start pe-5 ps-3" href="index_home.html">
+                <img src="./img/logo.png" width="300rem">
+            </a>
+            <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-5 ps-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_news.html"><strong>最新消息</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>關於配天宮</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_about.html#history">歷史由來</a></li>
+                                <li><a class="dropdown-item" href="index_about.html#story">傳奇故事</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">配天宮樂曲</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_party.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>慶典活動</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_party.html#partynews">慶典資訊</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">活動花絮</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_net.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>線上服務</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_net.html#light">線上點燈</a></li>
+                                <li><a class="dropdown-item" href="index_net.html#love">捐獻區</a></li>
+                                <li><a class="dropdown-item" href="#">志工報名</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">聯絡我們</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_map.html"><strong>交通資訊</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>人事組織</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">大事年表</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">組織圖</a></li>
+                                <li><a class="dropdown-item" href="#">配天宮文教基金會</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 選單結束 -->
+    <!-- 開始 -->
+    <div class="container my-5">
+        <div class="bg2">
+            <h1 class="my-3"><strong>交通資訊</strong></h1>
+            <div class="text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6155.005852287463!2d120.24163361093028!3d23.468096828508017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e9c0c7fb8a3c3%3A0xfa2721e727970ae5!2z5py05a2Q6YWN5aSp5a6u!5e0!3m2!1szh-TW!2stw!4v1664357792114!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="text-start my-3 px-5">
+            <p>高速公路：國道1號或3號，接82快速道路往鹿草、朴子方向，於義竹朴子交流道下，右轉台19線後直行文化路，右轉開元路。</p>
+            <p>火車/高鐵：嘉義火車站下車，並可搭嘉義縣縣營公車與客運或BRT。</p>
+            <p>公車客運(火車站前站)：於朴子農會下車後右轉直行即到配天宮。</p>
+            <p>BRT(火車站後站或高鐵站)：至東石國中站下車，直走到朴子農會右轉。</p>
+            </div>
+        </div>
+    </div>
+    <!-- 結束 -->
+
+    <!-- 頁尾開始 -->
+    <div class="ms-0 me-0 ps-5 pe-5 pt-5 pb-5 text-center" style="background-color: black; width: 100%;">
+        <a class="text-center" style="text-decoration: none; color: rgb(255, 255, 255);" href="#"><strong>back to top↑</strong></a>
+        <br><h6 class="text-center mb-0" style="color: rgb(255, 255, 255);"><br>地址：嘉義縣朴子市開元路118號<br>電話：05-3792350</h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

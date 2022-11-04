@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>線上服務</title>
+    <style>
+        .dropdown-menu li:hover .sub-menu {visibility: visible;}
+        .dropdown:hover .dropdown-menu {display: block;}
+        .bg{
+            background-image: url(./img/footer.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(64, 64, 64);
+        }
+        .bg2{
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 2rem 2rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+        .bg2 a{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+        }
+        .bg2 a:hover{
+            font-weight: bold;
+            font-size: medium;
+        }
+        .myul{
+            position: fixed;
+            bottom: 20%;
+            list-style: none;
+            background-image: url(./img/已剪裁紅花瓣-小.png);
+            background-repeat: no-repeat;
+            min-height: 10rem;
+            min-width: 10rem;
+            padding-top: 2rem;
+            padding-left: 1rem;
+            margin-left: 0;
+        }
+        
+        .mylink{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            border-bottom: 1px solid;
+            font-weight: bolder;
+        }
+        .mylink:hover{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+    <!-- 選單開始 -->
+    <nav class="navbar navbar-expand-lg  navbar-light mb-0" style="background-color: rgb(238, 201, 0, 0.8);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-start pe-5 ps-3" href="index_home.html">
+                <img src="./img/logo.png" width="300rem">
+            </a>
+            <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-5 ps-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_news.html"><strong>最新消息</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>關於配天宮</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_about.html#history">歷史由來</a></li>
+                                <li><a class="dropdown-item" href="index_about.html#story">傳奇故事</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">配天宮樂曲</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_party.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>慶典活動</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_party.html#partynews">慶典資訊</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">活動花絮</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="index_net.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>線上服務</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index_net.html#light">線上點燈</a></li>
+                                <li><a class="dropdown-item" href="index_net.html#love">捐獻區</a></li>
+                                <li><a class="dropdown-item" href="#">志工報名</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">聯絡我們</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active lead ms-3 ps-3" style="color: rgb(64, 64, 64);" aria-current="page" href="index_map.html"><strong>交通資訊</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lead ms-3 ps-3" style="color: rgb(64, 64, 64);" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>人事組織</strong></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">大事年表</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">組織圖</a></li>
+                                <li><a class="dropdown-item" href="#">配天宮文教基金會</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 選單結束 -->
+    
+    <!-- 子選單開始 -->
+    <ul class="myul">
+        <li><a class="mylink" href="#light">線上點燈</a></li>
+        <li><a class="mylink" href="#love">捐獻區</a></li>
+        <li><a class="mylink" href="#">志工報名</a></li>
+        <li><a class="mylink" href="#">聯絡我們</a></li>
+    </ul>
+    <!-- 子選單結束 -->
+
+    <!-- 開始 -->
+    <div class="container mb-5">
+        <div class="bg2">
+        <h1><a name="light" id="light" style="text-decoration: none; color:rgb(64, 64, 64)"><strong>線上點燈</strong></a></h1>
+        <p><strong>●太歲燈-保佑平安。祛災解厄。得福。得添。<br>太歲即歲神，主掌人的禍福吉凶，依六十甲子輪流值歲，總稱為「六十甲子太歲」，
+            當值日者稱為「值年太歲」。每位值年太歲皆有姓氏名諱，其沖犯的對象亦有所不同，民間對於值年太歲沖犯的觀念主要有「正沖」及「偏沖」。
+            「正沖」就是遇到自己的生肖年(肖猴者逢猴年)。「偏沖」就是生肖年加六年之生肖(如猴加六年-虎年)。「正沖」、「偏沖」都均須虔誠安奉太
+            歲，保祐平安、祛災解厄、德福添壽、萬事如意。另有安奉「順星太歲」之俗，即以本人出生年之太歲，稱為「本命元辰」，又稱「順星太歲」。
+            <br>●光明燈-元辰光彩。財利廣進。增福。晉祿。延壽。本宮為配合各香客之需要，設立光明燈；供善男信女燃點、祈求逢凶化吉、解除業障、
+            男添百福、女納千祥、元辰光彩、消災解厄、五穀豐收、財利廣進、軍中安康、袪厄降福、功名題榜、事業發達、植福延壽、闔家平安。
+            <br>●文昌燈-考運順利，金榜題名、學業進步。本宮為眾多學子啟開智慧，增進信心與精神寄託，祈求考運順利，金榜題名，學業進步，前途光明。
+            燃點「金榜題名光明燈」。 自古常把智慧喻為「燈」，點燈被視為破除昏昧的象徵將上考場的考生來說，此刻最重要的是，如明燈的智慧。</strong></p>
+        <p>點燈方式如下:
+        <br>1.填寫聯絡人的通訊錄，點燈者每次最多八位。
+        <br>2.填寫欲點燈者姓名、生辰八字與地址(地址若與聯絡人同則寫同上)。
+        <br>3.各個點燈費用為一年緣金500元，付款方式為匯款至:
+        <br>&emsp;●郵政劃撥戶名:財團法人台灣省嘉義縣朴子配天宮&emsp;帳號:30987757
+        <br>&emsp;●ATM轉帳<br>&emsp;戶名:玉山銀行朴子分行<br>&emsp;轉帳代碼:808<br>&emsp;帳號:1218940000329
+        <br>4.請註明匯款方式，若使用ATM轉帳煩請註明轉帳銀行與帳號後五碼，並請再來電告知。
+        <br>5.請在備註欄位填寫匯款時間。
+        <br>
+        <br>
+        <form class="row g-3">
+            <h4>【聯絡人資料】</h4>
+            <div class="col-md-6">
+                <label class="form-label">聯絡人姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">連絡電話</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="手機/市話" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">聯絡地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="詳細地址" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">電子信箱</label>
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">匯款方式</label>
+                <select id="inputState" class="form-select">
+                    <option selected>郵政劃撥</option>
+                    <option>ATM轉帳</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">轉帳帳戶後五碼</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="後五碼" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">備註</label>
+                <input type="text" class="form-control" id="inputMessage">
+            </div>
+
+            <h4>【點燈人資料】</h4>
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <!-- 資料填寫開始 -->
+            <div class="col-md-3">
+                <label class="form-label">姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">農曆生日</label>
+                <input type="text" class="form-control" id="inputBirthday" placeholder="88-08-10" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="居住地址" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">服務項目</label>
+                <select id="inputState" class="form-select">
+                    <option selected>太歲燈</option>
+                    <option>光明燈</option>
+                    <option>文昌燈</option>
+                    <option>財利燈</option>
+                </select>
+            </div>
+            <!-- 資料填寫結束 -->
+            <div class="col-12  text-end">
+                <button type="submit" class="btn btn-primary btn-sm btn-dark">確定送出</button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <!-- 結束 -->
+    <!-- 開始 -->
+    <div class="container mb-5">
+        <div class="bg2">
+        <h1><a name="love" id="love" style="text-decoration: none; color:rgb(64, 64, 64)"><strong>線上捐款</strong></a></h1>
+        <p><strong>樸樹媽祖在台已有三百餘年歷史，更是奠定朴子市的發展，對於社會之善良風氣有潛移默化之用。配天宮秉持弘揚聖德、造福群生之意念，致力於文化的傳承、媽祖博愛的精神與信仰，以及百年古蹟代代相傳。為了能夠永續此理念，推動優良傳統文化的傳承，仍需大家護持與參與。若您發心護持配天宮，可線上添香油：</strong></p>
+        <p>填寫捐款人聯絡通訊錄，欲參與的項目以及金額，付款方式為匯款至：
+        <br>戶名：財團法人台灣省嘉義縣朴子配天宮
+        <br>銀行：玉山銀行-朴子分行
+        <br>帳號：1218-940-000329
+        <br>請註明是使用匯款或是ATM轉帳。若使用ATM轉帳，請在匯款方式一欄寫轉帳銀行與帳號後五碼，並請再來電告知。
+        <br>請在備註欄填寫匯款日期。</p>
+        <br>
+        <br>
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">聯絡人姓名</label>
+                <input type="text" class="form-control" id="inputName" placeholder="全名" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">連絡電話</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="手機/市話" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">電子信箱</label>
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">聯絡地址</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="詳細地址" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">捐款金額</label>
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">匯款方式</label>
+                <select id="inputState" class="form-select">
+                    <option selected>郵政劃撥</option>
+                    <option>ATM轉帳</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">轉帳帳戶後五碼</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="後五碼" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">備註</label>
+                <input type="text" class="form-control" id="inputMessage">
+            </div>
+            <div class="col-12  text-end">
+                <button type="submit" class="btn btn-primary btn-sm btn-dark">確定送出</button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <!-- 結束 -->
+
+    <!-- 頁尾開始 -->
+    <div class="ms-0 me-0 ps-5 pe-5 pt-5 pb-5 text-center" style="background-color: black; width: 100%;">
+        <a class="text-center" style="text-decoration: none; color: rgb(255, 255, 255);" href="#"><strong>back to top↑</strong></a>
+        <br><h6 class="text-center mb-0" style="color: rgb(255, 255, 255);"><br>地址：嘉義縣朴子市開元路118號<br>電話：05-3792350</h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
